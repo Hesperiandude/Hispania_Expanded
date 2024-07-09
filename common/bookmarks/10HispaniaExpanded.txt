@@ -1,0 +1,13 @@
+bookmark =
+{
+	name = "book_Hispania"
+	desc = ""book_Hispania"_desc"
+	date = 1444.11.11
+	
+	center = 112
+	default = yes
+	
+	country = CAS
+	country = ARA
+	country = POR
+}

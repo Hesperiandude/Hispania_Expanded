@@ -1,0 +1,24 @@
+country_decisions = {
+	
+	form_great_union = {
+		major = yes
+		potential = {
+			tag = POL
+			has_country_flag = pol_can_formalize_union
+			NOT = {
+				has_country_flag = has_formed_plc
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+		}
+		effect = {
+			change_tag = TGU
+			set_country_flag = has_formed_union_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
